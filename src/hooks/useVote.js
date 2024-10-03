@@ -47,7 +47,7 @@ const useVote = () => {
         return;
       } catch (error) {
         console.error("Error while voting: ", error);
-        toast.error("Vote errored");
+        toast.error("Vote errored", error);
       } finally {
         setIsLoading(false);
       }
