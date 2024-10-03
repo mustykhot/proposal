@@ -23,7 +23,7 @@ function App() {
           className="bg-blue-500 p-4 text-white shadow-md rounded-md"
           onClick={openModal}
         >
-          Create Proposal
+          Create Proposals
         </button>
       </div>
       <Modal
